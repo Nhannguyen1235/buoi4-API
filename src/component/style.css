@@ -1,0 +1,13 @@
+.sidebar{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    transform: translateX(-110%);
+}
+.sidebar.active{
+    width: 300px;
+    height: 400px;
+    background-color: pink;
+    transform: translateX(0%);
+    transition: 1s;
+}
